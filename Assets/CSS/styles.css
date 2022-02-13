@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gideon+Roman&family=Lobster+Two&family=Quintessential&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+display:wg@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+</style>
+* {
+    margin: 2rem;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    background: #b378d3;
+    color: #fff;
+    width: 66%;
+    margin: 0 auto;
+}
+
+.TitleBlock h1 {
+    font-family: 'Playfair Display', serif;
+    text-decoration-color: antiquewhite;
+    font-size: 3rem;   
+    margin-top: 4rem 0 2rem;
+    text-align: center;
+}
+#TitleBlock_Container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    border-bottom: 0.5rem;
+    align-items: center;
+    text-align: left;
+    font-size: 30;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+}
+.Hello {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-image: round;
+}
+.About {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-family: 'Redressed', cursive;
+    font-size: 35;
+    font-style: oblique;
+    font-weight: 400;
+}
+.Profile {
+    display: flex;
+    justify-content: space-between;
+    border-image: round;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: aqua;
+}
+.Studies {
+    display: flex;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 27;
+    font-weight: 400;
+}
+.Skills {
+    display: flex;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30;
+    font-weight: 500;
+}
+.Interests {
+    display: flex;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30;
+    font-weight: 500;
+}
